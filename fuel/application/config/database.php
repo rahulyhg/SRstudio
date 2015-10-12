@@ -47,9 +47,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'http://srstudio-srstudio.rhcloud.com/';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'adminYTD76Zs';
+$db['default']['password'] = '2lcYIDxHRLUy';
 $db['default']['database'] = 'srstudio';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
