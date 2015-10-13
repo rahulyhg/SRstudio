@@ -67,7 +67,7 @@ $db['local']['autoinit'] = TRUE;
 $db['local']['stricton'] = FALSE;
 
 
-$db['development']['hostname'] = 'https://srstudio-srstudio.rhcloud.com';
+$db['development']['hostname'] = 'http://srstudio-srstudio.rhcloud.com';
 $db['development']['username'] = 'adminYTD76Zs';
 $db['development']['password'] = '2lcYIDxHRLUy';
 $db['development']['database'] = 'srstudio';
@@ -87,7 +87,7 @@ $db['development']['stricton'] = FALSE;
 //$db['production']['hostname'] = 'academyhq.com';
 //$db['production']['username'] = 'academyhq_prod';
 //$db['production']['password'] = 'res3Pabr';
-$db['production']['hostname'] = 'https://srstudio-srstudio.rhcloud.com';
+$db['production']['hostname'] = 'http://srstudio-srstudio.rhcloud.com';
 $db['production']['username'] = 'adminYTD76Zs';
 $db['production']['password'] = '2lcYIDxHRLUy';
 $db['production']['database'] = 'srstudio';
@@ -102,7 +102,6 @@ $db['production']['dbcollat'] = 'utf8_general_ci';
 $db['production']['swap_pre'] = '';
 $db['production']['autoinit'] = TRUE;
 $db['production']['stricton'] = FALSE;
-
 
 
 // used for testing purposes
