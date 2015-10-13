@@ -67,9 +67,9 @@ $db['local']['autoinit'] = TRUE;
 $db['local']['stricton'] = FALSE;
 
 
-$db['development']['hostname'] = 'http://srstudio-srstudio.rhcloud.com';
-$db['development']['username'] = 'adminYTD76Zs';
-$db['development']['password'] = '2lcYIDxHRLUy';
+$db['development']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db['development']['username'] = $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
+$db['development']['password'] = $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
 $db['development']['database'] = 'srstudio';
 $db['development']['dbdriver'] = 'mysqli';
 $db['development']['dbprefix'] = '';
@@ -84,12 +84,9 @@ $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
 
-//$db['production']['hostname'] = 'academyhq.com';
-//$db['production']['username'] = 'academyhq_prod';
-//$db['production']['password'] = 'res3Pabr';
-$db['production']['hostname'] = 'http://srstudio-srstudio.rhcloud.com';
-$db['production']['username'] = 'adminYTD76Zs';
-$db['production']['password'] = '2lcYIDxHRLUy';
+$db['production']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db['production']['username'] = $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
+$db['production']['password'] = $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
 $db['production']['database'] = 'srstudio';
 $db['production']['dbdriver'] = 'mysqli';
 $db['production']['dbprefix'] = '';
