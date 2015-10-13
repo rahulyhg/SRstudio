@@ -44,25 +44,66 @@
 | the active record class
 */
 
-$active_group = 'default';
+$active_group = ENVIRONMENT;
 $active_record = TRUE;
 
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'adminYTD76Zs';
-$db['default']['password'] = '2lcYIDxHRLUy';
-$db['default']['database'] = 'srstudio';
-$db['default']['dbdriver'] = 'mysqli';
-$db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = '';
-$db['default']['char_set'] = 'utf8';
-$db['default']['dbcollat'] = 'utf8_general_ci';
-$db['default']['swap_pre'] = '';
-$db['default']['autoinit'] = TRUE;
-$db['default']['stricton'] = FALSE;
+//echo ENVIRONMENT; exit;
+
+$db['local']['hostname'] = 'localhost';
+$db['local']['username'] = 'root';
+$db['local']['password'] = '';
+$db['local']['database'] = 'fuel1';
+$db['local']['dbdriver'] = 'mysqli';
+$db['local']['dbprefix'] = '';
+$db['local']['pconnect'] = TRUE;
+$db['local']['db_debug'] = TRUE;
+$db['local']['cache_on'] = FALSE;
+$db['local']['cachedir'] = '';
+$db['local']['char_set'] = 'utf8';
+$db['local']['dbcollat'] = 'utf8_general_ci';
+$db['local']['swap_pre'] = '';
+$db['local']['autoinit'] = TRUE;
+$db['local']['stricton'] = FALSE;
+
+
+$db['development']['hostname'] = 'https://srstudio-srstudio.rhcloud.com';
+$db['development']['username'] = 'adminYTD76Zs';
+$db['development']['password'] = '2lcYIDxHRLUy';
+$db['development']['database'] = 'srstudio';
+$db['development']['dbdriver'] = 'mysqli';
+$db['development']['dbprefix'] = '';
+$db['development']['pconnect'] = TRUE;
+$db['development']['db_debug'] = TRUE;
+$db['development']['cache_on'] = FALSE;
+$db['development']['cachedir'] = '';
+$db['development']['char_set'] = 'utf8';
+$db['development']['dbcollat'] = 'utf8_general_ci';
+$db['development']['swap_pre'] = '';
+$db['development']['autoinit'] = TRUE;
+$db['development']['stricton'] = FALSE;
+
+
+//$db['production']['hostname'] = 'academyhq.com';
+//$db['production']['username'] = 'academyhq_prod';
+//$db['production']['password'] = 'res3Pabr';
+$db['production']['hostname'] = 'https://srstudio-srstudio.rhcloud.com';
+$db['production']['username'] = 'adminYTD76Zs';
+$db['production']['password'] = '2lcYIDxHRLUy';
+$db['production']['database'] = 'srstudio';
+$db['production']['dbdriver'] = 'mysqli';
+$db['production']['dbprefix'] = '';
+$db['production']['pconnect'] = TRUE;
+$db['production']['db_debug'] = TRUE;
+$db['production']['cache_on'] = FALSE;
+$db['production']['cachedir'] = '';
+$db['production']['char_set'] = 'utf8';
+$db['production']['dbcollat'] = 'utf8_general_ci';
+$db['production']['swap_pre'] = '';
+$db['production']['autoinit'] = TRUE;
+$db['production']['stricton'] = FALSE;
+
+
 
 // used for testing purposes
 if (defined('TESTING'))

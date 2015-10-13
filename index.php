@@ -100,6 +100,7 @@ if (defined('ENVIRONMENT'))
 {
 	switch (ENVIRONMENT)
 	{
+		case 'local':
 		case 'development': case 'testing': 
 			ini_set('display_errors', 1);
 			error_reporting(E_ALL);

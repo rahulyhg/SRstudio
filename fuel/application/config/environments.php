@@ -13,6 +13,10 @@
 |				);
 */
 
-$environments = array(
+/*$environments = array(
 				'development' => array('localhost*', '192.*', '*.dev'),
+				);*/
+$environments = array(
+				'local' => array('localhost*', '192.*', '*.dev'),
+				'production'  =>array('*.com'),
 				);
