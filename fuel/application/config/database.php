@@ -84,9 +84,9 @@ $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
 
-$db['production']['hostname'] = $_ENV['OPENSHIFT_MYSQL_DB_HOST'];
-$db['production']['username'] = $_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
-$db['production']['password'] = $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
+$db['production']['hostname'] = '127.10.118.2'; //$_ENV['OPENSHIFT_MYSQL_DB_HOST'];
+$db['production']['username'] = 'adminYTD76Zs'; //$_ENV['OPENSHIFT_MYSQL_DB_USERNAME'];
+$db['production']['password'] = '2lcYIDxHRLUy'; //$_ENV['OPENSHIFT_MYSQL_DB_PASSWORD'];
 $db['production']['database'] = 'srstudio';
 $db['production']['dbdriver'] = 'mysqli';
 $db['production']['dbprefix'] = '';
